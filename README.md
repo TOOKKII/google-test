@@ -2,6 +2,8 @@
 
 ## Présentation
 Projet réalisé dans le cadre d'un exercice de cours. L'objectif était de reproduire la page d'accueil de Google Chrome en utilisant uniquement HTML5 et CSS3.
+<img width="1366" height="726" alt="image" src="https://github.com/user-attachments/assets/5adc086f-390b-4b97-b538-076bc313b30e" />
+
 
 ## Objectifs techniques
 * **Structure HTML** : Utilisation de balises sémantiques (`header`, `main`, `footer`).
