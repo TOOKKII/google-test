@@ -16,3 +16,5 @@ Projet réalisé dans le cadre d'un exercice de cours. L'objectif était de repr
 * Correction de l'étirement des blocs via `width: fit-content`.
 * Création de formes circulaires avec `border-radius: 50%`.
 * Nettoyage des styles par défaut du navigateur (liens, inputs).
+
+**P.S.** : L'intelligence artificielle a été utilisée de manière ciblée comme outil d'assistance pour résoudre des points précis (calcul des cercles parfaits, débogage d'alignements Flexbox complexes). Le code a été structuré les problemes ont été ennoncé pour garantir une réelle compréhension des concepts, évitant ainsi un simple copier-coller sans analyse.
