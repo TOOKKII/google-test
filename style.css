@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+     height: 100vh;
+}
+
+header {
+    display: flex;
+
+    justify-content: flex-end;
+    padding: 15px 20px;
+    color:rgb(29, 27, 24);
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+nav a {
+    color: #3c4043;
+    text-decoration: none; 
+   
+     font-size: 13px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -100px;
+}
+
+.search-container {
+    margin-top: 25px;
+    width: 580px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+.search-container:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+.logo {
+    width: 267px;
+}
+
+
+
+.custom-btn-container {
+    display: flex;
+    align-items: center;
+        color: #0065b3;
+
+    width: fit-content; 
+    
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 1px solid #dadce0;
+}
+
+.custom-btn-container:hover {
+    background-color: #f8f9fa;
+}
+footer {
+    position: fixed; 
+    bottom: 20px;
+    right: 20px; 
+    width: auto;
+    
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.shortcut-item {
+    display: flex;
+    flex-direction: column; /* Force le texte à aller SOUS le rond */
+    align-items: center;    /* Centre le rond et le texte l'un par rapport à l'autre */
+    width: 112px;           /* Largeur totale de la zone du raccourci */
+    margin: 20px auto;      /* Centre tout le bloc sous la barre de recherche */
+}
+
+.plus-circle {
+    width: 48px;            /* FIXE la largeur : fini le gris qui bave ! */
+    height: 48px;           /* FIXE la hauteur */
+    background-color: #f1f3f4;
+    border-radius: 50%;     /* Rend le carré rond */
+    display: flex;          /* Pour centrer le "+" à l'intérieur */
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 8px;     /* Espace entre le rond et le texte */
+}
+
+.shortcut-label {
+    font-size: 12px;
+    color: #3c4043;
+    text-align: center;
+}
